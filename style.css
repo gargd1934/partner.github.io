@@ -1,0 +1,61 @@
+body
+{
+padding:50px 0px 0px 0px;
+}
+
+.navbar-dark
+{
+background-color:#696969;
+}
+
+.btn
+{
+background-color:#F0F000;
+color:#000000;
+}
+
+.btn:hover {
+  opacity: 1;
+  background-color:orange;
+  color:black;
+}
+
+
+.bg-img {
+  /* The image used */
+  background-image: url("images/room.jpg");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=email], input[type=name], input[type=number],input[type=link] {
+  
+  padding: 5px;
+  
+  border: 2px solid gray;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=email]:focus, input[type=number]:focus, input[type=email]:focus, input[type=link]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+
+
+.footer {
+   position:relative ;   
+left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #F0F000;
+   color: black;
+   
+}
